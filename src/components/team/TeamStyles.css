@@ -1,0 +1,19 @@
+.team .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 0.2rem;
+}
+
+.MeetTheTeam {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+@media screen and (max-width: 740px) {
+    .team .container {
+        grid-template-columns: 1fr;
+    }
+}
